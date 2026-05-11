@@ -1,0 +1,43 @@
+const guns = [
+    {
+        title: 'revolver',
+        src: './assets/revolver.webp',
+        audioShot: './audio/revolver.mp3',
+        ammo: 6,
+        scoreBuster: 2,
+        reloadTime: 1000,
+        audioReload: './audio/revolver-reload.mp3',
+        shotDelay: 500,
+    },
+    {
+        title: 'sniper',
+        src: './assets/sniper.webp',
+        audioShot: './audio/sniper.mp3',
+        ammo: 4,
+        scoreBuster: 3,
+        reloadTime: 4000,
+        audioReload: './audio/sniper-reload.mp3',
+        shotDelay: 1500,
+    },
+    {
+        title: 'double',
+        src: './assets/double.webp',
+        audioShot: './audio/double.mp3',
+        ammo: 2,
+        scoreBuster: 4,
+        reloadTime: 2000,
+        audioReload: './audio/double-reload.mp3',
+        shotDelay: 3000,
+    },
+    {
+        title: 'm4a4',
+        src: './assets/m4.webp',
+        audioShot: './audio/m4.mp3',
+        ammo: 30,
+        scoreBuster: 1,
+        reloadTime: 2500,
+        audioReload: './audio/m4a4-reload.mp3',
+        shotDelay: 10,
+    },
+];
+export default guns;
