@@ -10,7 +10,7 @@ customCursor.style.cssText = `
     display: block;
 `;
 
-document.body.appendChild(customCursor);
+body.appendChild(customCursor);
 
 body.style.cursor = 'none';
 
